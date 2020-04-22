@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'IBMPlexSans-Medium';
+    src: url("/css/fonts/IBMPlexSans-Medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'IBMPlexSans-ThinItalic';
+    src: url("/css/fonts/IBMPlexSans-ThinItalic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'YuGothL';
+    src: url("/css/fonts/yugothl.otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'msyi';
+    src: url("/css/fonts/msyi.ttf") format("truetype");
+  }
+  
+
+
+#submenu {
+  width: 380px;
+  margin-left: 7em;
+  position: absolute;
+  z-index: 1;
+  list-style: none;
+}
+
+#submenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+#submenu>ul>li {
+  float: left
+}
+
+#submenu>ul>li>ul {
+  display: none;
+}
+
+#submenu>ul>li>ul>li {
+  position: relative
+}
+
+#submenu>ul>li>ul>li>ul {
+  position: absolute;
+  left: 160px;
+  top: 0;
+  display: none
+}
+
+#submenu>ul>li #nosotros {
+  font-family: 'msyi';
+  font-size: .8em;
+  text-transform: uppercase;
+  color: darkgray;
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  padding: 10px -10px 10px 30px;
+  background: #242f3f;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+#submenu>ul>li #nosotros:hover {
+  background: royalblue;
+  color: #fff;
+}
+
+#submenu>ul>li #nuestrosProductos {
+  font-family: 'msyi';
+  font-size: .8em;
+  text-transform: uppercase;
+  color: darkgray;
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  padding: 10px -10px 10px 30px;
+  background: #242f3f;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+#submenu>ul>li #nuestrosProductos:hover {
+  background: royalblue;
+  color: #fff;
+}
+
+#submenu>ul>li>ul>li>.sub {
+  background: #283446;
+  font-family: 'msyi';
+  font-size: 1.1em;
+  color: #d0d6df;
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  padding-left: 15px;
+  text-align: left;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+#menu>ul>li>ul>li>.sub:hover {
+  background: royalblue;
+  color: #fff;
+}
+
+#menu>ul>li .subsub {
+  font-family: 'msyi';
+  font-size: 1em;
+  color: #d0d6df;
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #29384e;
+  padding-left: 10px;
+  text-align: left;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+#menu>ul>li .subsub:hover {
+  background: royalblue;
+  color: #fff;
+}
+
+#nuestrosProductos {
+  cursor: pointer;
+}
